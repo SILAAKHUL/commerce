@@ -1,0 +1,215 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{
+	height:100%;
+}
+#wrap01 {
+    background-color:#00F;
+    background-size: 1280px 960px;
+    min-width: 980px;
+}
+#header {
+    width: 100%;
+    height: 65px;
+    background-color:#FFF;
+}
+#header .header {
+    width: 940px;
+	height: 65px;
+    margin: 0 auto;
+}
+#header .header-logo {
+    padding: 10px 0 0 7px;
+    float: left;
+}
+#header .infoText {
+	float: left;
+	font-weight: 300;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #03F;
+	padding: 5px 0 0 40px;
+	
+}
+#container {
+	padding-bottom:50%;
+	position:relative;
+    width: 970px;
+    margin: 0 auto;
+}
+#container .contents {
+	padding-top: 27px;
+    display: inline-block;
+    position: relative;
+    float: right;
+    margin-bottom: 8px;
+    width: 100%;
+}
+.section01 {
+    text-align: center;
+    width: 100%;
+    max-width: 970px;
+    position: relative;
+    display: inline-block;
+}
+.ProductBox {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    background-color:#f1f1f1;
+    border-radius: 4px;
+    margin-right: 10px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.ProductName {
+    color:#000;
+    font-size: 18px;
+	font-family:"Comic Sans MS", cursive;
+    text-align: center;
+    font-weight: 800;
+}
+#container01 {
+	padding-bottom:65%;
+	position:relative;
+    width: 970px;
+    margin: 0 auto;
+}
+
+#container01 .leftSection {
+    float: left;
+    width: 299px;
+	height: 880px;
+    padding: 20px;
+    background-color: rgba(241, 241, 241, 0.21);
+}
+#container01 .logo{
+	border-radius: 5px;
+}
+#container01 .leftSection .leftText {
+    margin-top: 25px;
+}
+#container01 .leftSection .leftText .txt01 {
+    font-size: 30px;
+    line-height: 34px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+#container01 .leftSection .leftText .txt02 {
+    font-size: 16px;
+    color: #fff;
+    line-height: 22px;
+    letter-spacing: -.3px;
+}
+#container01 .contents {
+	display: inline-block;
+	position: relative;
+	margin-bottom: 8px;
+	width: 65px;
+}
+#container01 .contents .BoxType {
+    position: relative;
+    height: 100%;
+    margin-bottom: 18px;
+    z-index: 2;
+}
+#container01 .contents .BoxType .bg01 {
+    width: 643px;
+    height: 5px;
+}
+#container01 .contents .BoxType .cont {
+    width: 622px;
+    padding: 0 0 0 21px;
+    height: 100%;
+}
+#container01 .contents .BoxType .cont .nolingkaran {
+    background: orange;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    border: 4px solid #fff;
+    line-height: 48px;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    top: -9px;
+    font-size: 19px;
+}
+#container01 .contents .BoxType .cont .pilih {
+    font-weight: 100;
+    font-size: 24px;
+    color: #333;
+    line-height: 28px;
+    padding: 2px 0 0 65px;
+}
+#container01 .contents .BoxType .cont .selectList {
+    margin-top: 19px;
+    padding-bottom: 13px;
+}
+#container01 .contents .BoxType .cont .selectList li a {
+    display: block;
+    width: 199px;
+    height: 68px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 71px;
+    text-align: center;
+    color: #666;
+}
+input, select {
+    margin: 0;
+    vertical-align: middle;
+}
+a {
+    text-decoration: none!important;
+}
+.btnBlue03 a {
+    width: 240px;
+    padding-left: 30px;
+}
+.btnBlue03 a span {
+    width: 212px;
+    padding-right: 30px;
+    font-size: 24px;
+    line-height: 43px;
+	font-weight: 700;
+    color: #fff;
+}
+.btnBlue03 a, .btnBlue03 a span {
+    display: inline-block;
+    height: 47px;
+    background: #5996c7;
+}
+#footer_landing {
+	width: 100%;
+	background: #ddd;
+	position: absolute;
+}
+#footer_landing .foo_01 {
+    background: #fff;
+    text-align: center;
+}
+#footer_landing .foo_01 .step {
+    font-size: 30px;
+    line-height: 36px;
+    padding: 35px 0 15px;
+    letter-spacing: -.5px;
+    font-weight: 200;
+}
+#footer_landing .foo_01 .txt {
+    font-size: 16px;
+    line-height: 24px;
+    color: #666;
+    max-width: 940px;
+    margin: auto;
+	
+}
+body {
+	font-size:14px;
+	line-height:16px;
+	font-weight:400;
+    display: block;
+    margin: 0;
+}
